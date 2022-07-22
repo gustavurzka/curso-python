@@ -1,2 +1,2 @@
 
-print('Ai é foda hein irmão', 'aula básica') 
+print('teste de print', 'aula básica')

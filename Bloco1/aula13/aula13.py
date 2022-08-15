@@ -5,15 +5,15 @@ while x < 100:
     x= x + 1
 
 print('Acabou')"""
-
 while True:
     print()
     num1 = input('Digite um número: ')
     num2 = input('Digite outro número: ')
     operador = input('Digite um operador: ')
 
+
     if not num1.isnumeric() or not num2.isnumeric():
-        print('Você precisa digitar um número')
+        print('Você precisa digitar um número ou sair')
         continue
 
     #+ - / *
@@ -25,6 +25,7 @@ while True:
         print(int(num1) / int(num2))
     elif operador == '*':
         print(int(num1) * int(num2))
+
 
 
 
